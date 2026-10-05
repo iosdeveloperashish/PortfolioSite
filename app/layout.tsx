@@ -3,8 +3,8 @@ import type { Metadata, Viewport } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Alex Morgan — Independent Mobile App Developer',
-  description: 'Independent mobile app developer in Lisbon, Portugal. I design and build thoughtful iOS and Android apps, from first idea to App Store launch.',
+  title: 'Ashish Verma — Independent Mobile App Developer',
+  description: 'Independent mobile app developer in Noida, India. I design and build thoughtful iOS, Android, and React Native apps, from first idea to App Store launch.',
   generator: 'v0.app',
   icons: {
     icon: [

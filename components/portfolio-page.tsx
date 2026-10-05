@@ -3,14 +3,14 @@ import { ArrowDown, ArrowRight, ArrowUpRight, Sparkles } from 'lucide-react'
 import ProjectSlider from '@/components/project-slider'
 import ContactForm from '@/components/contact-form'
 
-const services = ['iOS & Android apps', 'Product design', 'MVPs from scratch']
+const services = ['iOS & Android apps', 'React Native Apps', 'Product design']
 
 export default function PortfolioPage() {
   return (
     <main className="portfolio-shell min-h-screen overflow-hidden text-foreground">
       <div className="mx-auto max-w-[1240px] px-5 sm:px-8 lg:px-12">
         <header className="flex items-center justify-between py-5 sm:py-7">
-          <a href="#home" aria-label="Ashish Viltoriya, home" className="group flex items-center gap-2.5">
+          <a href="#home" aria-label="Ashish Verma, home" className="group flex items-center gap-2.5">
             <span className="grid size-10 place-items-center rounded-full bg-primary text-sm font-bold text-primary-foreground transition-transform group-hover:rotate-12">av.</span>
             <span className="text-sm font-semibold tracking-tight">Ashish Viltoriya<span className="text-muted-foreground"> / Independent developer</span></span>
           </a>
@@ -92,8 +92,8 @@ export default function PortfolioPage() {
             <div className="flex flex-col justify-center px-7 py-10 sm:px-12 sm:py-14 lg:px-16">
               <p className="mb-3 text-xs font-semibold uppercase tracking-[.2em] text-[#66856f]">The person behind the pixels</p>
               <h2 className="max-w-lg text-3xl font-semibold leading-tight tracking-[-.045em] sm:text-4xl">Hey, I&apos;m Ashish. I turn complicated into <span className="text-[#6856c8]">clear.</span></h2>
-              <p className="mt-5 max-w-[560px] leading-7 text-[#627068]">I&apos;m an independent mobile app developer who loves pairing thoughtful design with dependable technology. I work closely with founders and small teams to make products that feel effortless to use—and are built to last.</p>
-              <p className="mt-4 max-w-[560px] leading-7 text-[#627068]">When I&apos;m not deep in a build, you&apos;ll find me looking for a new tea spot, collecting ideas on long walks, or testing an app that should probably still be in beta.</p>
+              <p className="mt-5 max-w-[560px] leading-7 text-[#627068]">I&apos;m a Mobile App Engineer with 10+ years of experience designing, developing, and delivering high-quality mobile applications across iOS and Android platforms. I&apos;ve successfully delivered 5+ mobile apps, working across the full development lifecycle from architecture and implementation to testing, deployment, and maintenance.</p>
+              <p className="mt-4 max-w-[560px] leading-7 text-[#627068]">I enjoy solving complex technical challenges, exploring modern mobile technologies, and turning product ideas into reliable, production-ready applications.</p>
               <div className="mt-7 flex flex-wrap gap-2">
                 {['Swift', 'React Native', 'Flutter', 'Product thinking', 'Design systems'].map((tag) => <span key={tag} className="rounded-full border border-[#cce1d3] bg-white/65 px-3 py-1.5 text-xs font-medium text-[#5b7161]">{tag}</span>)}
               </div>
